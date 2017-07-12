@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C50D9FD1F14B8ED00A81336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50D9FC1F14B8ED00A81336 /* main.m */; };
+		2C50DA001F14B8ED00A81336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C50D9FF1F14B8ED00A81336 /* AppDelegate.m */; };
+		2C50DA061F14B8ED00A81336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50DA041F14B8ED00A81336 /* Main.storyboard */; };
+		2C50DA081F14B8ED00A81336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50DA071F14B8ED00A81336 /* Assets.xcassets */; };
+		2C50DA0B1F14B8ED00A81336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50DA091F14B8ED00A81336 /* LaunchScreen.storyboard */; };
+		2C50DA141F14CA1D00A81336 /* RouterTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C50DA131F14CA1D00A81336 /* RouterTable.plist */; };
+		2CE2B71C1F15F65200BD013C /* SYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7171F15F65200BD013C /* SYRouter.m */; };
+		2CE2B71D1F15F65200BD013C /* SYRouterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7191F15F65200BD013C /* SYRouterConstant.m */; };
+		2CE2B71E1F15F65200BD013C /* SYRouterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B71B1F15F65200BD013C /* SYRouterTable.m */; };
+		2CE2B7211F15F68F00BD013C /* SYRouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7201F15F68F00BD013C /* SYRouterViewController.m */; };
+		2CE2B7241F15F8E500BD013C /* SYRouterNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7231F15F8E500BD013C /* SYRouterNavigationController.m */; };
+		2CE2B7281F16011200BD013C /* SYRouterMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7271F16011200BD013C /* SYRouterMainViewController.m */; };
+		2CE2B72B1F1605A900BD013C /* SYRouterGreyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B72A1F1605A900BD013C /* SYRouterGreyViewController.m */; };
+		2CE2B72E1F1605BA00BD013C /* SYRouterGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B72D1F1605BA00BD013C /* SYRouterGreenViewController.m */; };
+		2CE2B7321F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7311F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.m */; };
+		2CE2B7351F160F2700BD013C /* SYRouterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7341F160F2700BD013C /* SYRouterPageViewController.m */; };
+		2CE2B7381F16201400BD013C /* SYRouterInnerLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2B7371F16201400BD013C /* SYRouterInnerLinkViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C50D9F81F14B8ED00A81336 /* SYRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C50D9FC1F14B8ED00A81336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C50D9FE1F14B8ED00A81336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C50D9FF1F14B8ED00A81336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C50DA051F14B8ED00A81336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C50DA071F14B8ED00A81336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C50DA0A1F14B8ED00A81336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C50DA0C1F14B8ED00A81336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C50DA131F14CA1D00A81336 /* RouterTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RouterTable.plist; sourceTree = "<group>"; };
+		2CE2B7161F15F65200BD013C /* SYRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouter.h; sourceTree = "<group>"; };
+		2CE2B7171F15F65200BD013C /* SYRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouter.m; sourceTree = "<group>"; };
+		2CE2B7181F15F65200BD013C /* SYRouterConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterConstant.h; sourceTree = "<group>"; };
+		2CE2B7191F15F65200BD013C /* SYRouterConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterConstant.m; sourceTree = "<group>"; };
+		2CE2B71A1F15F65200BD013C /* SYRouterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterTable.h; sourceTree = "<group>"; };
+		2CE2B71B1F15F65200BD013C /* SYRouterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterTable.m; sourceTree = "<group>"; };
+		2CE2B71F1F15F68F00BD013C /* SYRouterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYRouterViewController.h; path = SYRouter/SYRouter/SYRouterViewController.h; sourceTree = SOURCE_ROOT; };
+		2CE2B7201F15F68F00BD013C /* SYRouterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYRouterViewController.m; path = SYRouter/SYRouter/SYRouterViewController.m; sourceTree = SOURCE_ROOT; };
+		2CE2B7221F15F8E500BD013C /* SYRouterNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterNavigationController.h; sourceTree = "<group>"; };
+		2CE2B7231F15F8E500BD013C /* SYRouterNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterNavigationController.m; sourceTree = "<group>"; };
+		2CE2B7261F16011200BD013C /* SYRouterMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterMainViewController.h; sourceTree = "<group>"; };
+		2CE2B7271F16011200BD013C /* SYRouterMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterMainViewController.m; sourceTree = "<group>"; };
+		2CE2B7291F1605A900BD013C /* SYRouterGreyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterGreyViewController.h; sourceTree = "<group>"; };
+		2CE2B72A1F1605A900BD013C /* SYRouterGreyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterGreyViewController.m; sourceTree = "<group>"; };
+		2CE2B72C1F1605BA00BD013C /* SYRouterGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterGreenViewController.h; sourceTree = "<group>"; };
+		2CE2B72D1F1605BA00BD013C /* SYRouterGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterGreenViewController.m; sourceTree = "<group>"; };
+		2CE2B72F1F160CEA00BD013C /* SYRouterJumpProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterJumpProtocol.h; sourceTree = "<group>"; };
+		2CE2B7301F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SYRouterViewController+SYRouterProtocolAddition.h"; sourceTree = "<group>"; };
+		2CE2B7311F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SYRouterViewController+SYRouterProtocolAddition.m"; sourceTree = "<group>"; };
+		2CE2B7331F160F2700BD013C /* SYRouterPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterPageViewController.h; sourceTree = "<group>"; };
+		2CE2B7341F160F2700BD013C /* SYRouterPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterPageViewController.m; sourceTree = "<group>"; };
+		2CE2B7361F16201400BD013C /* SYRouterInnerLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRouterInnerLinkViewController.h; sourceTree = "<group>"; };
+		2CE2B7371F16201400BD013C /* SYRouterInnerLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRouterInnerLinkViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C50D9F51F14B8ED00A81336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C50D9EF1F14B8ED00A81336 = {
+			isa = PBXGroup;
+			children = (
+				2C50D9FA1F14B8ED00A81336 /* SYRouter */,
+				2C50D9F91F14B8ED00A81336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C50D9F91F14B8ED00A81336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C50D9F81F14B8ED00A81336 /* SYRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C50D9FA1F14B8ED00A81336 /* SYRouter */ = {
+			isa = PBXGroup;
+			children = (
+				2C50DA121F14B90800A81336 /* SYRouter */,
+				2C50D9FE1F14B8ED00A81336 /* AppDelegate.h */,
+				2C50D9FF1F14B8ED00A81336 /* AppDelegate.m */,
+				2CE2B7261F16011200BD013C /* SYRouterMainViewController.h */,
+				2CE2B7271F16011200BD013C /* SYRouterMainViewController.m */,
+				2CE2B7291F1605A900BD013C /* SYRouterGreyViewController.h */,
+				2CE2B72A1F1605A900BD013C /* SYRouterGreyViewController.m */,
+				2CE2B72C1F1605BA00BD013C /* SYRouterGreenViewController.h */,
+				2CE2B72D1F1605BA00BD013C /* SYRouterGreenViewController.m */,
+				2CE2B7361F16201400BD013C /* SYRouterInnerLinkViewController.h */,
+				2CE2B7371F16201400BD013C /* SYRouterInnerLinkViewController.m */,
+				2C50DA041F14B8ED00A81336 /* Main.storyboard */,
+				2C50DA071F14B8ED00A81336 /* Assets.xcassets */,
+				2C50DA091F14B8ED00A81336 /* LaunchScreen.storyboard */,
+				2C50DA0C1F14B8ED00A81336 /* Info.plist */,
+				2C50D9FB1F14B8ED00A81336 /* Supporting Files */,
+			);
+			path = SYRouter;
+			sourceTree = "<group>";
+		};
+		2C50D9FB1F14B8ED00A81336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C50D9FC1F14B8ED00A81336 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C50DA121F14B90800A81336 /* SYRouter */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2B71F1F15F68F00BD013C /* SYRouterViewController.h */,
+				2CE2B7201F15F68F00BD013C /* SYRouterViewController.m */,
+				2CE2B7331F160F2700BD013C /* SYRouterPageViewController.h */,
+				2CE2B7341F160F2700BD013C /* SYRouterPageViewController.m */,
+				2CE2B7301F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.h */,
+				2CE2B7311F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.m */,
+				2CE2B7221F15F8E500BD013C /* SYRouterNavigationController.h */,
+				2CE2B7231F15F8E500BD013C /* SYRouterNavigationController.m */,
+				2CE2B7151F15F65200BD013C /* Router Base Classs */,
+				2C50DA131F14CA1D00A81336 /* RouterTable.plist */,
+				2CE2B72F1F160CEA00BD013C /* SYRouterJumpProtocol.h */,
+			);
+			path = SYRouter;
+			sourceTree = "<group>";
+		};
+		2CE2B7151F15F65200BD013C /* Router Base Classs */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2B7161F15F65200BD013C /* SYRouter.h */,
+				2CE2B7171F15F65200BD013C /* SYRouter.m */,
+				2CE2B7181F15F65200BD013C /* SYRouterConstant.h */,
+				2CE2B7191F15F65200BD013C /* SYRouterConstant.m */,
+				2CE2B71A1F15F65200BD013C /* SYRouterTable.h */,
+				2CE2B71B1F15F65200BD013C /* SYRouterTable.m */,
+			);
+			path = "Router Base Classs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C50D9F71F14B8ED00A81336 /* SYRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C50DA0F1F14B8ED00A81336 /* Build configuration list for PBXNativeTarget "SYRouter" */;
+			buildPhases = (
+				2C50D9F41F14B8ED00A81336 /* Sources */,
+				2C50D9F51F14B8ED00A81336 /* Frameworks */,
+				2C50D9F61F14B8ED00A81336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYRouter;
+			productName = SYRouter;
+			productReference = 2C50D9F81F14B8ED00A81336 /* SYRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C50D9F01F14B8ED00A81336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sylar;
+				TargetAttributes = {
+					2C50D9F71F14B8ED00A81336 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C50D9F31F14B8ED00A81336 /* Build configuration list for PBXProject "SYRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C50D9EF1F14B8ED00A81336;
+			productRefGroup = 2C50D9F91F14B8ED00A81336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C50D9F71F14B8ED00A81336 /* SYRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C50D9F61F14B8ED00A81336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C50DA141F14CA1D00A81336 /* RouterTable.plist in Resources */,
+				2C50DA0B1F14B8ED00A81336 /* LaunchScreen.storyboard in Resources */,
+				2C50DA081F14B8ED00A81336 /* Assets.xcassets in Resources */,
+				2C50DA061F14B8ED00A81336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C50D9F41F14B8ED00A81336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE2B7381F16201400BD013C /* SYRouterInnerLinkViewController.m in Sources */,
+				2CE2B72B1F1605A900BD013C /* SYRouterGreyViewController.m in Sources */,
+				2CE2B72E1F1605BA00BD013C /* SYRouterGreenViewController.m in Sources */,
+				2CE2B7281F16011200BD013C /* SYRouterMainViewController.m in Sources */,
+				2CE2B7211F15F68F00BD013C /* SYRouterViewController.m in Sources */,
+				2CE2B7241F15F8E500BD013C /* SYRouterNavigationController.m in Sources */,
+				2CE2B71D1F15F65200BD013C /* SYRouterConstant.m in Sources */,
+				2CE2B7321F160E4800BD013C /* SYRouterViewController+SYRouterProtocolAddition.m in Sources */,
+				2C50DA001F14B8ED00A81336 /* AppDelegate.m in Sources */,
+				2CE2B7351F160F2700BD013C /* SYRouterPageViewController.m in Sources */,
+				2CE2B71C1F15F65200BD013C /* SYRouter.m in Sources */,
+				2C50D9FD1F14B8ED00A81336 /* main.m in Sources */,
+				2CE2B71E1F15F65200BD013C /* SYRouterTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C50DA041F14B8ED00A81336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C50DA051F14B8ED00A81336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C50DA091F14B8ED00A81336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C50DA0A1F14B8ED00A81336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C50DA0D1F14B8ED00A81336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C50DA0E1F14B8ED00A81336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C50DA101F14B8ED00A81336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C50DA111F14B8ED00A81336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C50D9F31F14B8ED00A81336 /* Build configuration list for PBXProject "SYRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C50DA0D1F14B8ED00A81336 /* Debug */,
+				2C50DA0E1F14B8ED00A81336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C50DA0F1F14B8ED00A81336 /* Build configuration list for PBXNativeTarget "SYRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C50DA101F14B8ED00A81336 /* Debug */,
+				2C50DA111F14B8ED00A81336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C50D9F01F14B8ED00A81336 /* Project object */;
+}
